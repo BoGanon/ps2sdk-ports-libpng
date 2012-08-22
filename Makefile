@@ -29,6 +29,7 @@ install: all
 	cp -f $(EE_LIB) $(DESTDIR)$(PS2SDK)/ports/lib
 	cp -f png.h $(DESTDIR)$(PS2SDK)/ports/include
 	cp -f pngconf.h $(DESTDIR)$(PS2SDK)/ports/include
+	cp -f pnglibconf.h $(DESTDIR)$(PS2SDK)/ports/include
 
 clean:
 	/bin/rm -f pnglibconf.h $(EE_OBJS_LIB) $(EE_OBJS) $(EE_BIN) $(EE_LIB) $(TEST_BIN) $(TEST_OBJS)
